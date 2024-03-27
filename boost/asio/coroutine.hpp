@@ -27,14 +27,14 @@ class coroutine_ref;
  * Coroutines are copy-constructible and assignable, and the space overhead is
  * a single int. They can be used as a base class:
  *
- * @code class sessionLayer : coroutine
+ * @code class session : coroutine
  * {
  *   ...
  * }; @endcode
  *
  * or as a data member:
  *
- * @code class sessionLayer
+ * @code class session
  * {
  *   ...
  *   coroutine coro_;
